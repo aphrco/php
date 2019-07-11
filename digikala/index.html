@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>دیجی کالا</title>
+</head>
+<style>
+    p, h1, h2, h3, h4, h5, span, header, pre, * {
+        text-align: right;
+        direction: rtl;
+        font-family: yekan;
+    }
+
+
+    .yekan {
+        font-family: "yekan";
+    }
+
+    .fontsm {
+        font-size: 15px;
+    }
+
+    @font-face {
+        font-family: 'yekan';
+        src: url("data/Fonts/yekan.ttf") format("truetype");
+        src: url("data/Fonts/yekan.eot?iefix") format("embedded-opentype");
+        src: url("data/Fonts/yekan.woff") format("woff");
+
+
+    }
+
+    .menu_icon_down {
+        background: rgba(0, 0, 0, 0) url("images/arrow_down.png") repeat scroll 0 0;
+        display: block;
+        float: left;
+        height: 4px;
+        margin-right: 5px;
+        margin-top: 17px;
+
+
+    }
+
+    nav {
+
+        box-shadow: 1px 3px 4px #ccc;
+        -webkit-box-shadow: 1px 3px 4px #ccc;
+        -moz-box-shadow: 1px 3px 4px #ccc;
+    }
+
+    li {
+        list-style: none;
+
+    }
+
+    li {
+        font-size: 16px;
+        float: right;
+        padding-right: 34px;
+        padding-top: 19px;
+    }
+
+    ul {
+        font-size: 18px;
+        padding-top: 2px;
+        padding-right: 43px;
+    }
+
+    #menu_top > ul > li {
+        float: right;
+        display: block;
+        line-height: 45px;
+        color: darkgreen;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:link {
+        color: #ffa700;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    a:visited {
+        color: #002180
+    }
+
+    a:hover {
+        color: #ea3121
+    }
+
+
+    #menu_top > ul > li > a {;
+        color: rgba(25, 5, 14, 0.62);
+
+    }
+
+    #menu_top > ul > li {
+        margin-top: 30px;
+
+    }
+
+    #menu_top > ul > li > a {
+        padding-right: 15px
+    }
+
+    #menu_top > ul > li > a {
+        font-size: 17px
+    }
+
+    #menu_top > ul > li > ul > li {
+        float: right
+    }
+
+    #menu_top > ul > li > ul > li > a {
+        padding-right: 50px;
+    }
+
+</style>
+<body style="margin: 0">
+
+
+<header><!--هدر صفحه  -->
+
+    <div id="header"
+         style="width: 1200px; height: 140px;margin:0px auto;padding-top: 0px; margin-top: 10px;">
+        <div id="header_right" style=" float: right;width: 720px;direction: rtl;margin: 0px">
+            <div id="header_right_top" style="float: right">
+                 <span style="margin: 0px 10px 0px 0px ;width:20px; height:20px; display: block;float: right"><img
+                         style="width: 20px ; height: 20px"
+                         src="images/log.png"></span>
+                <a class="yekan" style="color: rgba(36,23,37,0.78); margin: 0px 10px 0px 0px ;float: right"
+                   href="/logon"> فروشگاه اینترنتی دیجی
+                    کالا وارد
+                    شوید </a>
+                <span style="color: rgba(36,23,37,0.78);margin:0px 10px 0px 10px;width:20px; height:20px; display: block;float: right">
+                <img style="color: rgba(36,23,37,0.78);margin:0px 10px 0px 10px ; width: 20px ; height: 20px;float: right"
+                     src="images/signin.png"></span>
+                <a class="yekan" style="color: rgba(36,23,37,0.78);margin-right: 10px ;float: right" href="/regester">
+                    ثبت نام کنید
+                </a>
+            </div>
+            <div id="header_right_bottom" style="height: 50px;margin-top: 20px ;float: right ">
+                <div id="basket_top" style="width: 190px;height: 38px;float: right;">
+                    <div id="basket_top_right"
+                         style="margin-top:12px; width: 40px;height: 36px;background: #28ba26 url(images/cart.png)no-repeat center">
+                        <div class="yekan"
+                             style="padding-right: 14px; color: #fffceb; margin-top:10px;margin-right: 40px; width: 128px;height: 36px;background: #3aa501 ;padding-top: 0px;line-height: 30px;">
+                            سبد خرید شما
+                            <span style="font-size:18px;width: 25px;height: 25px;padding-right:0px; line-height: 25px;background-color: #28ba26;
+border-radius: 100%;text-align: center;display:inline-block;margin-top: 4px;margin-right: 5px;">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="search_top" style="width: 500px ; height: 33px;float: right;margin-top: 10px">
+                    <div id="search">
+                        <input class="yekan" type="text"
+                               style="width: 480px ; height: 32px;margin-top:2px ;border: 1px solid darkslategray ;color: gray;padding-right: 10px ;float: right;margin-right: 20px;position: relative"
+                               placeholder="محصول ، دسته یا برند مورد نظر خودرا جستجو کنید ...">
+                        <span style="width: 25px; height: 25px; background-color: cadetblue">
+                    <img src="images/moeaba.jpg"
+                         style="width: 37px ; height: 36px ;float: right ;position: absolute;left: 577px;top: 62px;">
+                </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header_left" style="float: left;">
+            <div id="header_left_top" style="float: left">
+                <img src="images/logo.png" width="228px" height="100%">
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!--منو -->
+<nav style="width: 100% ; height: 50px ; background-color: #f7f8fa;box-shadow:1px 7px 16px darkgrey;margin: auto">
+    <div id="menu_top" style="width:1200px;height: 40px;margin: auto">
+        <ul>   <!--dokme haye menu 1 -->
+
+            <a href="sssss.php"> کالای دیجیتال</a>
+            <ul>
+                <li class="yekan fontsm  ">
+                    <a href="http://aaaa.com"> لب تاپ</a>
+                </li>
+                <li class="fontsm yekan">
+                    <a href="http://aaaa.com">
+                        موبایل
+                    </a>
+                </li>
+            </ul>
+            <ul >
+                <a href="sssss.php">
+                    لوازم خانگی
+                </a>
+            </ul>
+
+        </ul>
+
+    </div>
+</nav>
+</body>
+</html>
